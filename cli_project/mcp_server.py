@@ -27,6 +27,7 @@ def read_document(
     return docs[doc_id]
 
 
+
 @mcp.tool(
     name = "edit_document",
     description = "Edit a document by replacing the string in the document content with the given new string"
