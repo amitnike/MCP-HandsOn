@@ -106,6 +106,15 @@ To fully implement the MCP features:
 1. Complete the TODOs in `mcp_server.py`
 2. Implement the missing functionality in `mcp_client.py`
 
+# Running the files
+uv run main.py
+
+uv run mcp_client.py
+
+# Launch Inspector on local
+
+mcp dev mcp_server.py
+
 ### Linting and Typing Check
 
 There are no lint or type checks implemented.
